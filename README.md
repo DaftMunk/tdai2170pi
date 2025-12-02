@@ -15,7 +15,7 @@ Installation currently requires some knowledge about Linux and rpi, i.e. you nee
 Connect your USB to DB9 accessory to the rpi prior to executing the following install script:
 
 ```sh
-sudo apt-get -y install curl && curl -sL https://raw.githubusercontent.com/DaftMunk/tdai2170pi/main/install.sh | sh
+sudo apt-get -y install curl && curl -sL https://raw.githubusercontent.com/DaftMunk/tdai2170pi/main/install.sh | sudo bash
 ```
 
 ## Hardware
